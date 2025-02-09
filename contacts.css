@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: Montserrat;
+}
+
+html{
+    font-size: 65%;
+
+
+}
+
+body{
+    margin-top: 12rem;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+header{
+    margin-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+
+}
+footer{
+
+    position: fixed;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: left; 
+    margin-top: -20px;
+    margin-right:795px;
+    margin-left: 60px;
+}
+ nav a{
+    font-size: 1.8rem;
+    color:   #25bcff;
+    margin-left: 3.5rem;
+    font-weight: 600;
+    transition:0.5s ease;
+    border-bottom: 3px solid transparent;
+ 
+}
+nav a:hover,nav a.active{
+    color:#ebeff1;
+    border-bottom: 2.5px solid #25bcff;
+}
+
+    nav{
+        position:absolute;
+        top: 100%;
+        left: 32%;
+        right:30%;
+        width:40%;
+
+    }
+
+.contact{
+    background-color: black;
+}
+.contact h2{
+    margin-top: 5rem;
+    color: white;
+    margin-left:58rem;
+    font-size: 4rem;
+    
+}
+span{
+    color:   #25bcff;
+}
+.contact form{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin:5rem 0;
+    text-align: center;
+    margin-top:6rem;
+}
+
+.contact form .input-box input,.contact form textarea{
+    
+    width: 100%;
+    padding: 2.5rem;
+    font-size:1.8rem;
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    border: 2px solid #25bcff;
+    margin: 1.5rem 0;
+    resize: none;
+    zoom: 100%;
+    box-shadow: 0 0 5px #50b8e7 ;
+    transition: transform 0.6s;
+}
+.contact form .input-box input, .contact form textarea:hover{
+    box-shadow: 0 0 25px #50b8e7  ;
+    transform: scale(1.02);
+    
+}
+
+.contact form textarea {
+    margin-left:8rem;
+}
+button{
+    display: flex;
+    margin-left: 320px;
+    font-size: 15px;
+    background-color: black;
+    border:2px solid #25bcff;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 0 5px #50b8e7 ;
+    transition: transform 0.6s;
+}
+button:hover{
+    box-shadow: 0 0 25px #50b8e7  ;
+    transform: scale(1.02);
+    cursor: pointer;
+}
